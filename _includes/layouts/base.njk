@@ -4,20 +4,20 @@
 	{% include "components/head.njk" %}
 
 	<body>
-
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
-		</header>
-
-		<main>
-			{{ layoutContent | safe }}
-		</main>
-
-		{% include "components/footer.njk" %}
-
+		<div class="wrapper">
+			<div class="navigation">
+				<a class="site-title" href="{{ '/' | url }}">{{ metadata.title }}</a>
+				{% include "components/nav.njk" %}
+			</div>
+			<header {% if (hero) %}style="background-image: url({% image hero %})"{% endif %}>
+				{% if (hero) %}
+					<div class="hero-description">{{ heroDescription }}</div>
+				{% endif %}
+			</header>
+			<main>
+				{{ layoutContent | safe }}
+			</main>
+			{% include "components/footer.njk" %}
+		</div>
 	</body>
-
 </html>

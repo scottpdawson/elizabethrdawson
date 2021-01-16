@@ -1,7 +1,9 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+	--primary: #873847;
+	--secondary: #f5c4cd;
+	--headerBackground: #ffffff;
+	--navUnselected: #f5c4cd66;
+	--navSelected: var(--primary);
 }
 
 *, *:before, *:after {
@@ -12,24 +14,106 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: "EB Garamond", serif;
 }
 
 body {
 	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	background-color: var(--background);
+	max-height: 100vh;
+	background-color: black;
 }
 
+.wrapper {
+	margin: 0 auto;
+	max-width: min(1100px, 85%);
+    display: grid;
+    grid-template-columns: 40% 60%;
+  	grid-template-rows: 3vh 20vh 52vh 22vh 3vh;
+}
+.navigation {
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
+	position: relative;
+	text-align: right;
+	margin-right: 1em;
+	align-self: flex-end;
+}
+header {
+	background-color: var(--headerBackground);
+	grid-column: 1 / span 1;
+	grid-row: 3 / span 1;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: inset -4px 0px 10px #00000033;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
 main {
-	max-width: 37.5em;
+	background-color: white;
+	max-height: 100vh;
+    overflow-y: auto;
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 3;
+	border-radius: 10px;
 }
-
+footer {
+	grid-column: 1 / span 1;
+	grid-row: 4 / span 1;
+	position: relative;
+	text-align: right;
+	margin-right: 1em;
+	align-self: flex-end;
+	color: white;
+	font-size: .9em;
+    opacity: .7;
+}
+.site-title {
+	font-family: 'IM Fell English', serif;
+	font-style: italic;
+	font-size: 2.5em;
+    color: white !important;
+}
+.site-title:hover {
+	text-decoration: none;
+}
+.hero-description, .pottery li .price {
+	position: absolute;
+    bottom: 0;
+    background: #00000099;
+    width: 100%;
+    font-size: .8em;
+    padding: .5em 1em;
+    text-align: right;
+    color: #ffffffcc;
+}
 p,
 pre,
 code {
 	line-height: 1.5;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-family: 'IM Fell English', serif;
+	color: white;
+	background-color: var(--primary);
+	padding: 40px 25px 10px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.75em;
+    font-family: 'IM Fell English', serif;
+    margin: 0;
+}
+
+article a:not(.button) {
+    text-decoration: none;
+    background-image: linear-gradient(to right, var(--secondary) 50%,var(--secondary) 50%);
+    background-position: 0 1.18em;
+    background-repeat: repeat-x;
+    padding-bottom: 3px;
 }
 
 a[href],
@@ -46,86 +130,100 @@ img {
 	height: auto;
 }
 
-header,
-main,
-footer {
-	padding: 1em;
+main article {
+	padding: 25px;
 }
-
-main {
-	padding-bottom: 2em;
-}
-
 main :first-child,
-main > article :first-child {
+main > article :first-child, h2 + p {
 	margin-top: 0;
 }
 
-pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
+article .rt {
+    float: right;
+    margin-left: .5em;
 }
-
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
+/* .navigation nav */
+.navigation nav {
+	margin-top: -10px;
 }
-
-/* Header Nav */
-header nav ul {
+.navigation nav ul {
 	padding: 0;
 	list-style: none;
 }
 
-header nav ul :first-child {
+.navigation nav ul :first-child {
 	margin-left: 0;
 }
 
-header nav li {
+.navigation nav li {
 	display: inline-block;
 	margin: 0 .25em;
 }
 
-header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+.navigation nav li a {
+	border-radius: 1em;
+    font-size: .85em;
+    padding: .4em 1.2em;
+	background-color: var(--navUnselected);
+	color: white !important;
+	opacity: .7;
+	transition: all .6s;
 }
 
-header nav li a[href]:not(:hover) {
+.navigation nav li a:not([data-current="current item"]):hover {
 	text-decoration: none;
-}
-
-header nav li a[data-current="current item"] {
 	background-color: white;
+	color: var(--primary) !important;
+	opacity: 1;
 }
 
-/* Posts List */
-article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+.navigation nav li a[data-current="current item"] {
+	background-color: var(--navSelected);
+	opacity: 1;
+	font-weight: bold;
 }
 
-main > section > article > * {
-	margin-top: 0;
-	margin-bottom: .5em;
+.button, button {
+	border-radius: 1em;
+    font-size: .85em;
+    padding: .4em 1.2em;
+	color: white !important;
+	background-color: var(--navSelected);
+	opacity: 1;
+	font-size: 1em;
+	border: 0;
+}
+
+.pottery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.pottery li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 200px;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	border-radius: 10px;
+}
+
+.pottery li:hover {
+	cursor: pointer;
+}
+
+.pottery li .price {
+    width: auto;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* Post Tags */
@@ -168,25 +266,13 @@ form label {
 }
 
 input,
-textarea,
-button {
+textarea {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
-}
-
-input,
-textarea {
-	border: 1px solid black;
-}
-
-button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
+  font-size: 1rem;
+    border: 1px solid #d4d4d4;
+	border-radius: 10px;
 }
 
 @media screen and (min-width:768px) {
@@ -194,3 +280,50 @@ button {
 		font-size: 1.1rem;
 	}
 }
+
+@media screen and (min-width: 840px) and (max-width: 1150px) {
+	.site-title { font-size: 2em; }
+	.navigation nav li {
+		margin: 0 .1em;
+	}
+	.navigation nav li a {
+		padding: .4em .8em;
+	}
+	.wrapper {
+		max-width: 95%;
+	}
+}
+
+@media screen and (max-width: 839px) {
+	.wrapper {
+		max-width: 100%;
+		display: block;
+	}
+	.navigation {
+		text-align: center;
+		margin: 2em 0em;
+	}
+	header, main {
+		border-radius: 0;
+	}
+	header {
+		height: 450px;
+	}
+	main {
+		overflow: visible;
+    	max-height: unset;
+	}
+	footer {
+		text-align: center;
+		margin: 1em;
+	}
+	.pottery {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	article .rt {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+

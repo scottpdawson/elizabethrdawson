@@ -1,15 +1,13 @@
 ---
 layout: layouts/contact.njk
-title: Get in touch
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.
-section: contact
-date: 2018-01-01
-permalink: /contact/index.html
+title: Contact
+hero: elizabeth.jpg
+heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
+permalink: /contact/
+metaDescription: "Page description here."
 eleventyNavigation:
   key: Contact
   order: 3
 ---
-The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
-and saves them in the connected Netlify account where notifications can
-optionally be configured. Each submission is passed through a spam filter and
-if flagged, will display a CAPTCHA challenge to the user.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at pulvinar velit. Nam malesuada tincidunt laoreet. In nisi sem, efficitur at ullamcorper at, viverra eu turpis. Aenean vulputate, dui vitae posuere porttitor, nisi dui commodo justo, id viverra tellus eros at orci. Nullam molestie libero id purus efficitur maximus. Curabitur sed dui ac lorem volutpat placerat. Morbi quis ante ultricies, luctus neque quis, mollis diam.

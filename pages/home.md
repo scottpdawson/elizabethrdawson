@@ -1,20 +1,20 @@
 ---
-layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
+title: About Me
 permalink: /
+hero: elizabeth_phoebe.jpg
+heroDescription: "Holding my family rabbit, Phoebe"
+metaDescription: "Page description here."
 eleventyNavigation:
-  key: Home
+  key: About
   order: 0
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at pulvinar velit. Nam malesuada tincidunt laoreet. In nisi sem, efficitur at ullamcorper at, viverra eu turpis. Aenean vulputate, dui vitae posuere porttitor, nisi dui commodo justo, id viverra tellus eros at orci. Nullam molestie libero id purus efficitur maximus. Curabitur sed dui ac lorem volutpat placerat. Morbi quis ante ultricies, luctus neque quis, mollis diam.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+[Phoebe's Insta](https://www.instagram.com/phoebe.the.bunny/)
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+## Vestibulum dictum
 
-Or click the button below to deploy your own copy of this project to Netlify.
+Mi tempus dapibus efficitur. Integer cursus dolor vel egestas facilisis. Nunc tellus urna, pulvinar ut justo et, gravida lobortis erat. Sed varius justo ut urna suscipit, non volutpat magna lacinia. Mauris rutrum faucibus augue nec tincidunt. Duis nulla quam, venenatis at urna vitae, fermentum pulvinar arcu. Nam aliquet arcu at magna cursus pretium.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+Praesent eu ex eu dolor elementum finibus eu sit amet libero. Suspendisse vel ex nec nisl suscipit suscipit. Morbi eget quam laoreet nibh posuere ornare in et justo. Proin lectus erat, rutrum eu augue vel, faucibus maximus nibh. Morbi semper eget ipsum eget sagittis. Phasellus fermentum sem non odio molestie convallis. Integer tincidunt massa vitae sodales imperdiet. Duis molestie hendrerit augue non ultrices. In condimentum, tellus ac rutrum tempus, odio risus lacinia risus, vitae auctor justo dolor nec enim. Vestibulum id lorem aliquet, fringilla ipsum quis, iaculis lorem.
