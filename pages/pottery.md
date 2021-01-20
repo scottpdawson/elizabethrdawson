@@ -1,7 +1,7 @@
 ---
 title: Pottery
 permalink: /pottery/
-hero: elizabeth.jpg
+hero: pottery.jpg
 heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
 metaDescription: "Page description here."
 eleventyNavigation:

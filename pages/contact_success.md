@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Contact
-hero: elizabeth.jpg
+hero: totally_kiln_it.jpg
 heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
 permalink: /contact/success/
 metaDescription: "Page description here."
