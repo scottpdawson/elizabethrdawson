@@ -2,12 +2,12 @@
 layout: layouts/contact.njk
 title: Contact
 hero: bomber_blanket.jpg
-heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
+heroDescription: "Holding Phoebe after my acceptance to Ithaca College."
 permalink: /contact/
-metaDescription: "Page description here."
+metaDescription: "Please use the following form to contact me. I look forward to talking with you! "
 eleventyNavigation:
   key: Contact
   order: 3
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at pulvinar velit. Nam malesuada tincidunt laoreet. In nisi sem, efficitur at ullamcorper at, viverra eu turpis. Aenean vulputate, dui vitae posuere porttitor, nisi dui commodo justo, id viverra tellus eros at orci. Nullam molestie libero id purus efficitur maximus. Curabitur sed dui ac lorem volutpat placerat. Morbi quis ante ultricies, luctus neque quis, mollis diam.
+Want to get in touch? Great! Please use the following form to contact me. I look forward to connecting with you! 

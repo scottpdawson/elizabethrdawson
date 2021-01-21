@@ -2,9 +2,9 @@
 layout: layouts/page.njk
 title: Contact
 hero: totally_kiln_it.jpg
-heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
+heroDescription: "Who doesn't love a good pottery pun?"
 permalink: /contact/success/
-metaDescription: "Page description here."
+metaDescription: "Thanks for getting in touch with me."
 ---
 
-Contact success page. What are we going to say here? What are we going to say here? What are we going to say here? 
+Thanks for getting in touch! I'll get back to you as soon as I can. In the meantime, know that you're totally kiln it. 

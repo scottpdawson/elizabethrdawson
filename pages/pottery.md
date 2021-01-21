@@ -2,8 +2,8 @@
 title: Pottery
 permalink: /pottery/
 hero: pottery.jpg
-heroDescription: "Sitting at my family's 1941 Steinway Baby Grand"
-metaDescription: "Page description here."
+heroDescription: "I love staging my work for seasonal photographs."
+metaDescription: "I am a ceramic artist based in Trumansburg NY. After taking an intro course in hand building and wheel throwing during my senior year of high school, I knew I had found a hobby I couldn’t live without."
 eleventyNavigation:
   key: Pottery
   order: 1
@@ -11,7 +11,9 @@ eleventyNavigation:
 
 {% imageRt "pottery.png", "Pottery by Elizabeth" %}
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Check out my pottery pages on [Instagram](https://www.instagram.com/pottery_by_elizabeth/) and [Facebook](https://www.facebook.com/potterybyelizabeth).
+I am a ceramic artist based in Trumansburg NY. After taking an intro course in hand building and wheel throwing during my senior year of high school, I knew I had found a hobby I couldn’t live without. I have spent time creating at the [Turk Hill Craft School](https://www.turkhillcrafts.com/) in Rochester, and at the [Clay School of Ithaca](https://clayschoolithaca.com/). 
+
+Most recently, I have been creating my work in my garage studio that we created during the COVID-19 pandemic. Equipped with a Shimpo wheel and a Skutt automatic electric kiln, this little garage studio is the perfect space for my creativity to thrive. Check out my pottery pages on [Instagram](https://www.instagram.com/pottery_by_elizabeth/) and [Facebook](https://www.facebook.com/potterybyelizabeth).
 
 ## Recent Pieces on Etsy
 <ul class="pottery">

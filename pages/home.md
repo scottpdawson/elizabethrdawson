@@ -3,18 +3,14 @@ title: About Me
 permalink: /
 hero: elizabeth_phoebe.jpg
 heroDescription: "Holding my family rabbit, Phoebe"
-metaDescription: "Page description here."
+metaDescription: "I am currently a college sophomore, studying Vocal Music Education at the Ithaca College School of Music."
 eleventyNavigation:
   key: About
   order: 0
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at pulvinar velit. Nam malesuada tincidunt laoreet. In nisi sem, efficitur at ullamcorper at, viverra eu turpis. Aenean vulputate, dui vitae posuere porttitor, nisi dui commodo justo, id viverra tellus eros at orci. Nullam molestie libero id purus efficitur maximus. Curabitur sed dui ac lorem volutpat placerat. Morbi quis ante ultricies, luctus neque quis, mollis diam.
+I am currently a college sophomore, studying Vocal Music Education at the [Ithaca College School of Music](https://www.ithaca.edu/academics/school-music). 
 
-[Phoebe's Insta](https://www.instagram.com/phoebe.the.bunny/)
+When I’m not studying and practicing, I enjoy throwing [ceramics](/pottery), cooking, baking, downhill skiing, spending time with family and pets (check out [Phoebe's Instagram](https://www.instagram.com/phoebe.the.bunny/)), going for hikes with friends, and working out. 
 
-## Vestibulum dictum
-
-Mi tempus dapibus efficitur. Integer cursus dolor vel egestas facilisis. Nunc tellus urna, pulvinar ut justo et, gravida lobortis erat. Sed varius justo ut urna suscipit, non volutpat magna lacinia. Mauris rutrum faucibus augue nec tincidunt. Duis nulla quam, venenatis at urna vitae, fermentum pulvinar arcu. Nam aliquet arcu at magna cursus pretium.
-
-Praesent eu ex eu dolor elementum finibus eu sit amet libero. Suspendisse vel ex nec nisl suscipit suscipit. Morbi eget quam laoreet nibh posuere ornare in et justo. Proin lectus erat, rutrum eu augue vel, faucibus maximus nibh. Morbi semper eget ipsum eget sagittis. Phasellus fermentum sem non odio molestie convallis. Integer tincidunt massa vitae sodales imperdiet. Duis molestie hendrerit augue non ultrices. In condimentum, tellus ac rutrum tempus, odio risus lacinia risus, vitae auctor justo dolor nec enim. Vestibulum id lorem aliquet, fringilla ipsum quis, iaculis lorem.
+I also work at [Finger Lakes Running Company](https://www.fingerlakesrunningco.com/) in Ithaca where I help people find shoes and gear that is just right for them with my awesome coworkers.
