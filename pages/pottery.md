@@ -20,7 +20,7 @@ Most recently, I have been creating my work in my garage studio that we created 
 <ul class="pottery">
 {%- for item in pottery -%}
   <li style="background-image:url({{item.image_url}})" onClick="location.href='{{ item.url }}'" title="{{ item.title }}">
-    <div class="price">${{ item.price }}</div>
+    <div class="price">${{ item.px }}</div>
   </li>
 {%- endfor -%}
 </ul>
