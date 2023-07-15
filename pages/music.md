@@ -1,15 +1,15 @@
 ---
-title: Music
+title: Music & Teaching
 permalink: /music/
 hero: hero_music.jpg
 heroDescription: "Elizabeth Dawson"
-metaDescription: "I am majoring in Vocal Music Education with a concentration in Piano at the Ithaca College School of Music in Ithaca, New York."
+metaDescription: "I graduated from the Ithaca College School of Music with a degree in Music Education in the spring of 2023, with piano being my primary instrument."
 eleventyNavigation:
-  key: Music
+  key: Music & Teaching
   order: 1
 ---
 
-I am majoring in Vocal Music Education with a concentration in Piano at the [Ithaca College School of Music](https://www.ithaca.edu/academics/school-music) in Ithaca, New York. I have been playing piano for 14 years and am most currently studying with [Dr. Vadim Serebryany](https://www.ithaca.edu/faculty/vserebryany). I enjoy playing solo piano, and accompanying vocalists and choirs of all different ages. You can see (and hear!) my [current projects and performances on YouTube](https://www.youtube.com/channel/UCP7cOJzRu6yNu0tx3ImuNSA).
+I graduated from the [Ithaca College School of Music](https://www.ithaca.edu/academics/school-music) with a degree in Music Education in the spring of 2023, with piano being my primary instrument. I enjoy playing solo piano and accompanying vocalists and choirs of all different ages. You can see (and hear!) [current projects and performances on YouTube](https://www.youtube.com/channel/UCP7cOJzRu6yNu0tx3ImuNSA).
 
 ## Recent Video
 
