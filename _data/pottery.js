@@ -14,7 +14,7 @@ module.exports = async function () {
 
   await axios
     .get(
-      `https://openapi.etsy.com/v3/application/shops/${shopId}/listings/featured`,
+      `https://openapi.etsy.com/v3/application/shops/${shopId}/listings/active`,
       config
     )
     // await axios.get(`https://openapi.etsy.com/v2/shops/${shopId}/listings/active?limit=${limit}&taxonomy_id=6096&api_key=${ETSY_KEY}`)
