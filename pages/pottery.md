@@ -15,7 +15,9 @@ I am a ceramic artist based in Trumansburg NY. After taking an intro course in h
 
 Most recently, I have been creating my work in my garage studio that we created during the COVID-19 pandemic. Equipped with a Shimpo wheel and a Skutt automatic electric kiln, this little garage studio is the perfect space for my creativity to thrive. Check out my pottery pages on [Instagram](https://www.instagram.com/pottery_by_elizabeth/) and [Facebook](https://www.facebook.com/potterybyelizabeth).
 
-## Featured Pieces on Etsy
+<a style="float:right" href="https://www.etsy.com/shop/edpottery" class="button">ED Pottery on Etsy</a>
+
+## Recent Pieces on Etsy
 
 <ul class="pottery">
 {%- for item in pottery -%}
@@ -25,4 +27,4 @@ Most recently, I have been creating my work in my garage studio that we created 
 {%- endfor -%}
 </ul>
 
-<a href="https://www.etsy.com/shop/edpottery" class="button">View my Store on Etsy</a>
+<a href="https://www.etsy.com/shop/edpottery" class="button">View my Etsy Store</a>

@@ -5,7 +5,7 @@ let ETSY_KEY = process.env.ETSY_KEY;
 module.exports = async function () {
   let pottery = [];
   let shopId = 24030861;
-  let limit = 6;
+  let limit = 12;
   let config = {
     headers: {
       "x-api-key": `${ETSY_KEY}`,
@@ -14,7 +14,7 @@ module.exports = async function () {
 
   await axios
     .get(
-      `https://openapi.etsy.com/v3/application/shops/${shopId}/listings/featured`,
+      `https://openapi.etsy.com/v3/application/shops/${shopId}/listings/active`,
       config
     )
     // await axios.get(`https://openapi.etsy.com/v2/shops/${shopId}/listings/active?limit=${limit}&taxonomy_id=6096&api_key=${ETSY_KEY}`)
