@@ -36,6 +36,7 @@
     "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
     "node-fetch": "^2.6.1",
+    "sharp": "^0.34.5",
     "uglify-es": "^3.3.9"
   }
 }
