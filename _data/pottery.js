@@ -25,16 +25,16 @@ module.exports = async function () {
 
   // get the images for each of the pottery pieces
   for (let i = 0; i < pottery.length; i++) {
-    await axios
-      .get(
-        `https://openapi.etsy.com/v3/application/listings/${pottery[i].listing_id}/images`,
-        config
-      )
-      .then((result) => {
-        pottery[i].image_url = result.data.results[0].url_570xN;
-        pottery[i].px = pottery[i].price.amount / pottery[i].price.divisor;
-      })
-      .catch((err) => console.log(err));
+    // await axios
+    //   .get(
+    //     `https://openapi.etsy.com/v3/application/listings/${pottery[i].listing_id}/images`,
+    //     config
+    //   )
+    //   .then((result) => {
+    //     pottery[i].image_url = result.data.results[0].url_570xN;
+    //     pottery[i].px = pottery[i].price.amount / pottery[i].price.divisor;
+    //   })
+    //   .catch((err) => console.log(err));
   }
   return pottery.slice(0, limit);
 };
