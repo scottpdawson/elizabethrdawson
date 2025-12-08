@@ -19,7 +19,7 @@ module.exports = async function () {
     )
     // await axios.get(`https://openapi.etsy.com/v2/shops/${shopId}/listings/active?limit=${limit}&taxonomy_id=6096&api_key=${ETSY_KEY}`)
     .then((result) => {
-      pottery = result.data.results;
+      //pottery = result.data.results;
     })
     .catch((err) => console.log(err));
 
