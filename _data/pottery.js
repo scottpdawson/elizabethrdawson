@@ -35,7 +35,7 @@ module.exports = async function () {
         pottery[i].px = pottery[i].price.amount / pottery[i].price.divisor;
       });
   }
-  return pottery.slice(0, limit);
+  return []; //pottery.slice(0, limit);
 };
 
 // [ { listing_id: 1248883301,
