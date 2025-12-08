@@ -17,7 +17,7 @@ Most recently, I have been creating my work in my garage studio that we created 
 
 <a style="float:right" href="https://www.etsy.com/shop/edpottery" class="button">ED Pottery on Etsy</a>
 
-## Featured Pieces on Etsy
+<!-- ## Featured Pieces on Etsy
 
 <ul class="pottery">
 {%- for item in pottery -%}
@@ -27,4 +27,4 @@ Most recently, I have been creating my work in my garage studio that we created 
 {%- endfor -%}
 </ul>
 
-<a href="https://www.etsy.com/shop/edpottery" class="button">View my Etsy Store</a>
+<a href="https://www.etsy.com/shop/edpottery" class="button">View my Etsy Store</a> -->
